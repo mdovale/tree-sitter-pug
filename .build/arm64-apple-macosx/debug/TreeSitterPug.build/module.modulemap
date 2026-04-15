@@ -1,0 +1,4 @@
+module TreeSitterPug {
+    umbrella "/private/tmp/tree-sitter-pug-work/bindings/swift"
+    export *
+}

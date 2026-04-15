@@ -1,0 +1,3 @@
+module SwiftTreeSitterLayer {
+    header "/private/tmp/tree-sitter-pug-work/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/include/SwiftTreeSitterLayer-Swift.h"
+}

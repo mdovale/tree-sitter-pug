@@ -2,3 +2,5 @@ node_modules/
 build/
 pug.so
 log.html
+.swiftpm/
+Package.resolved
