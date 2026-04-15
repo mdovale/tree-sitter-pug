@@ -38,7 +38,6 @@
 ] @punctuation.delimiter
 
 (keyword) @keyword
-((keyword) @include (#eq? @include "include"))
 ((keyword) @repeat (#any-of? @repeat "for" "each" "of" "in" "while"))
 ((keyword) @conditional (#any-of? @conditional "if" "else" "else if" "unless"))
 ((keyword) @keyword.function (#any-of? @keyword.function "block" "mixin"))
@@ -47,4 +46,9 @@
 
 (mixin_use (mixin_name) @method.call)
 (mixin_definition (mixin_name) @function)
+
+(doctype) @keyword
+
+; Buffered/unbuffered/case/iteration RHS — grammar uses large `javascript` aliases
+(javascript) @variable
 

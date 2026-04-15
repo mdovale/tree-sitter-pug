@@ -1,5 +1,6 @@
 node_modules/
 build/
+.build/
 pug.so
 log.html
 .swiftpm/
